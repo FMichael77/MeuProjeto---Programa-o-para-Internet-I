@@ -8,7 +8,7 @@ def enquete(request, enquete_id):
     enquete = Enquete()
 
     if enquete_id == 1:
-        enquete = Enquete(1, 'Qual linguagem é mais fácil: JAVA, PHP ou C#?', '28/08/2020')
+        enquete = Enquete(1, 'É preciso realmente aprender lógica de programação?', '28/08/2020')
     if enquete_id == 2:
         enquete = Enquete(2, 'Quais áreas de TI tem retorno financeiro mais rápido?', '29/08/2020')
     if enquete_id == 3:
