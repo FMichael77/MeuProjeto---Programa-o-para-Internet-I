@@ -1,3 +1,4 @@
 from django.contrib import admin
+from enquetes.models import Enquete
 
-# Register your models here.
+admin.site.register(Enquete)
